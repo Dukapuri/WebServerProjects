@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>onclick, 계산기 만들기</title>
+      <meta charset="utf-8">
+  </head>
+  <body>
+    <h2>onclick, 계산기 만들기</h2>
+    <hr>
+    <p>계산하고자 하는 수식을 입력하고 계산 버튼을 눌러봐요.</p>
+
+    <form>
+      식
+      <input id="oper" name="oper" type="text">
+      <br>
+      값
+      <input id="answer"> <input id="submit" type="button" onclick="calculation()" value="계산">
+    </form>
+
+    <script>
+      function calculation() {
+        let op = document.getElementById("oper").value;
+        let result = eval(op);
+        document.getElementById("answer").value = result;
+
+      }
+    </script>
+  </body>
+</html>
