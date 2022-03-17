@@ -1,0 +1,21 @@
+img {
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  float: left;
+}
+#img1 {
+  width: 150px;
+  height: 150px;
+}
+
+#img2 {
+  width: 100px;
+  height: 100px;
+}
+
+div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  clear: both;
+}

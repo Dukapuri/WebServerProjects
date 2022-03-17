@@ -1,0 +1,16 @@
+#mytable {
+  background: gray;
+  width: 40%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+#mytable input {
+  width: 100%;
+  padding: 0;
+  background: white;
+  border:none;
+  border-radius: 10px 10px 10px 10px;
+}
+#mytable thead {
+  margin-bottom: 10px;
+}

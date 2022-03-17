@@ -11,7 +11,7 @@
 
     <form>
       식
-      <input id="oper" name="oper" type="text">
+      <input id="formula" name="formula" type="text">
       <br>
       값
       <input id="answer"> <input id="submit" type="button" onclick="calculation()" value="계산">
@@ -19,7 +19,7 @@
 
     <script>
       function calculation() {
-        let op = document.getElementById("oper").value;
+        let op = document.getElementById("formula").value;
         let result = eval(op);
         document.getElementById("answer").value = result;
 

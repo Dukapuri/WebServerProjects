@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666666;
+}
+body {
+  font-family: sans-serif;
+}
+.quickcontainer {
+  width: 100%;
+  height: 377px;
+  margin: 0;
+}
+
+#bodycontainer {
+  height: 377px;
+}
+
+#quicktitle {
+  z-index: 2;
+  margin: 0;
+  width: 90px;
+  height: 70px;
+  left: 10px;
+  padding-top: 20px;
+  background: #1682cd;
+  letter-spacing: 1px;
+  text-align: center;
+  box-shadow: 11px 6px 13px rgb(0 0 0 / 10%);
+  letter-spacing: 1px;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+
+.tabs {
+  z-index: 1;
+  width: 100%;
+  margin: 0;
+  padding: 15px 10px;
+  padding-left: 130px;
+  display: block;
+  list-style: none;
+  /* position: absolute; */
+  overflow: hidden;
+  background: url(https://www.hallym.ac.kr/.resources/hallym_univ_theme/hallym/ko/img/main/quicksbg.png) no-repeat 92% center rgba(175,175,175,0.24);
+}
+
+ul .current {
+  background: url(https://www.hallym.ac.kr/.resources/hallym_univ_theme/hallym/ko/img/main/tabcurrent.png) no-repeat center bottom;
+}
+.tab-link {
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  width: 55px;
+  margin-right: 13px;
+  margin-bottom: 8px;
+  padding-left: 18px;
+  padding-bottom: 10px;
+  padding-right: 18px;
+}
+
+li {
+  display: list-item;
+}
+
+.tabs a{
+  text-decoration: none;
+}
+
+.iconsbox {
+  padding: 20px 22px;
+}
+#quickservice {
+  display: block;
+  height: 302px;
+}
+
+.iconsQuickService {
+  height: 262px;
+}
+
+.itembanner li{
+  width: 189px;
+  float: left;
+  height: 262px;
+}
+
+.itembanner ul {
+  width: 100%;
+  height: 262px;
+  display: table;
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+.itembanner img {
+  margin: 20px auto;
+  }
+.itembanner a {
+  padding: 15px 0 10px;
+  display: block;
+  height: 131px;
+}
+
+.itembanner span {
+  width: 100%;
+  font-size: 12px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
